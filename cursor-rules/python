@@ -1,0 +1,28 @@
+# Project: Python Application
+
+## Coding Standards
+- Use Python 3.8+ features
+- Follow PEP 8 style guidelines
+- Employ type hints for all function signatures
+
+## Style Guidelines
+- Indentation: 4 spaces
+- Max line length: 79 characters
+- Use single quotes for strings, except when the string contains a single quote
+
+## Best Practices
+- Implement logging using the standard logging library
+- Handle exceptions with try-except blocks; log exceptions appropriately
+- Write modular and reusable code; avoid code duplication
+
+## Testing
+- Write unit tests for all new functions and classes
+- Aim for at least 90% test coverage
+- Use pytest as the testing framework
+
+## Documentation
+- Use docstrings for all public modules, classes, and functions
+- Follow the Google style for docstrings
+- Maintain an updated README.md with project setup and usage instructions
+
+Remember to consider performance and security in all new features.

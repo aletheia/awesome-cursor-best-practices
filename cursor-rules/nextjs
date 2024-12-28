@@ -1,0 +1,69 @@
+# Next.js Cursor Rules
+
+## General Guidelines
+
+- Always use the latest features of Next.js 15, including the App Router, Server Components, Server Actions, and API Routes.
+- Ensure the use of `next.config.ts` for project configuration.
+
+## Component and File Guidelines
+
+- Add `'use client'` at the top of the file when working with client-side components.
+- Use the `@/` alias for imports to maintain consistency and improve readability.
+- Example: `import { Button } from '@/components/ui/button';`
+- Use the `@/components/ui/` prefix for `shadcn/ui` components.
+- Example: `import { Card } from '@/components/ui/card';`
+- Install `shadcn/ui` using: `pnpm dlx shadcn@latest add`
+
+## Styling
+
+- Use TailwindCSS for styling. Ensure proper configuration in `tailwind.config.ts` and adhere to consistent usage of Tailwind classes.
+
+## Libraries and Tools
+
+- Use `zod` for form validation and schema definition.
+- Use `lucide-react` for icons. Import icons only as needed.
+- Example: `import { Search } from 'lucide-react';`
+- Use `pnpm` as the package manager for consistency and efficiency.
+- Install dependencies using: `pnpm install`
+- Configure your IDE to automatically import dependencies when possible.
+
+## TypeScript
+
+- Utilize TypeScript for type safety.
+- Define interfaces and types for all props and state to maintain clear and type-safe code.
+
+## Performance and Optimization
+
+- Leverage Server Components to reduce client-side JavaScript and improve performance.
+- Use API Routes for server-side logic and interactions with external APIs.
+- Utilize Next.js's built-in code splitting features for optimal performance.
+- Implement performance optimizations such as memoization and lazy loading when necessary.
+
+## Accessibility
+
+- Ensure all components are accessible by using appropriate ARIA attributes and semantic HTML.
+
+## Error Handling
+
+- Implement proper error handling mechanisms and display user-friendly error messages.
+
+## Sensitive Information
+
+- Use environment variables for storing sensitive information and configuration details.
+
+## Testing
+
+- Write unit tests and integration tests for all components and utilities.
+
+## Documentation
+
+- Provide clear and concise documentation for components, functions, and complex logic.
+
+## Code Formatting
+
+- Maintain consistent code formatting across the project.
+- Use Prettier for automatic code formatting.
+
+## Media Optimization
+
+- Use Next.js's `Image` component for optimized image handling.
